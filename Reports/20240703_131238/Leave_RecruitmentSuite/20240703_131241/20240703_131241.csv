@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Leave_RecruitmentSuite,Chrome 126.0.0.0,,,03-07-2024 13:13:38,03-07-2024 13:14:29,51.259s,PASSED
+,,,,,,,
+Test Cases/LeaveApplyTestCase,Chrome 126.0.0.0,,,03-07-2024 13:13:38,03-07-2024 13:14:03,25.176s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 126.0.0.0,,,03-07-2024 13:13:38,03-07-2024 13:13:49,10.757s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,03-07-2024 13:13:49,03-07-2024 13:13:49,0.111s,PASSED
+"setText(findTestObject(""LeaveApplyTestCase_OR/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 126.0.0.0,,,03-07-2024 13:13:49,03-07-2024 13:13:51,1.721s,PASSED
+"setText(findTestObject(""LeaveApplyTestCase_OR/Page_OrangeHRM/input_Password_password""), ""admin123"")",Chrome 126.0.0.0,,,03-07-2024 13:13:51,03-07-2024 13:13:52,0.743s,PASSED
+"verifyElementClickable(findTestObject(""LeaveApplyTestCase_OR/Page_OrangeHRM/button_Login""))",Chrome 126.0.0.0,,,03-07-2024 13:13:52,03-07-2024 13:13:52,0.354s,PASSED
+"click(findTestObject(""LeaveApplyTestCase_OR/Page_OrangeHRM/button_Login""))",Chrome 126.0.0.0,,,03-07-2024 13:13:52,03-07-2024 13:13:53,1.482s,PASSED
+waitForPageLoad(0),Chrome 126.0.0.0,,,03-07-2024 13:13:53,03-07-2024 13:13:54,0.288s,PASSED
+"verifyElementPresent(findTestObject(""LeaveApplyTestCase_OR/Page_OrangeHRM/h6_Dashboard""), 0)",Chrome 126.0.0.0,,,03-07-2024 13:13:54,03-07-2024 13:13:55,1.404s,PASSED
+assert true,Chrome 126.0.0.0,,,03-07-2024 13:13:55,03-07-2024 13:13:55,0.005s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,03-07-2024 13:13:55,03-07-2024 13:13:57,1.793s,PASSED
+"click(findTestObject(""LeaveApplyTestCase_OR/Page_OrangeHRM/a_Leave""))",Chrome 126.0.0.0,,,03-07-2024 13:13:57,03-07-2024 13:13:58,1.167s,PASSED
+"click(findTestObject(""LeaveApplyTestCase_OR/Page_OrangeHRM/a_Apply""))",Chrome 126.0.0.0,,,03-07-2024 13:13:58,03-07-2024 13:14:00,2.325s,PASSED
+"verifyElementVisible(findTestObject(""LeaveApplyTestCase_OR/Page_OrangeHRM/div_-- Select --""))",Chrome 126.0.0.0,,,03-07-2024 13:14:00,03-07-2024 13:14:03,2.432s,PASSED
+assert true,Chrome 126.0.0.0,,,03-07-2024 13:14:03,03-07-2024 13:14:03,0.002s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,03-07-2024 13:14:03,03-07-2024 13:14:03,0.344s,PASSED
+,,,,,,,
+Test Cases/RecruitmentTestCase,Chrome 126.0.0.0,,,03-07-2024 13:14:03,03-07-2024 13:14:29,25.958s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 126.0.0.0,,,03-07-2024 13:14:03,03-07-2024 13:14:17,13.788s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,03-07-2024 13:14:17,03-07-2024 13:14:17,0.057s,PASSED
+"setText(findTestObject(""RecruitmentTestCase_OR/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 126.0.0.0,,,03-07-2024 13:14:17,03-07-2024 13:14:18,1.215s,PASSED
+"setText(findTestObject(""RecruitmentTestCase_OR/Page_OrangeHRM/input_Password_password""), ""admin123"")",Chrome 126.0.0.0,,,03-07-2024 13:14:18,03-07-2024 13:14:19,0.621s,PASSED
+"click(findTestObject(""RecruitmentTestCase_OR/Page_OrangeHRM/button_Login""))",Chrome 126.0.0.0,,,03-07-2024 13:14:19,03-07-2024 13:14:19,0.320s,PASSED
+waitForPageLoad(0),Chrome 126.0.0.0,,,03-07-2024 13:14:19,03-07-2024 13:14:20,1.070s,PASSED
+"verifyElementVisible(findTestObject(""RecruitmentTestCase_OR/Page_OrangeHRM/h6_Dashboard""))",Chrome 126.0.0.0,,,03-07-2024 13:14:20,03-07-2024 13:14:21,0.874s,PASSED
+assert true,Chrome 126.0.0.0,,,03-07-2024 13:14:21,03-07-2024 13:14:21,0.001s,PASSED
+"click(findTestObject(""RecruitmentTestCase_OR/Page_OrangeHRM/a_Recruitment""))",Chrome 126.0.0.0,,,03-07-2024 13:14:21,03-07-2024 13:14:23,1.606s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,03-07-2024 13:14:23,03-07-2024 13:14:23,0.408s,PASSED
+"click(findTestObject(""RecruitmentTestCase_OR/Page_OrangeHRM/a_Vacancies""))",Chrome 126.0.0.0,,,03-07-2024 13:14:23,03-07-2024 13:14:25,2.062s,PASSED
+"click(findTestObject(""RecruitmentTestCase_OR/Page_OrangeHRM/div_-- Select --""))",Chrome 126.0.0.0,,,03-07-2024 13:14:25,03-07-2024 13:14:27,1.501s,PASSED
+"click(findTestObject(""RecruitmentTestCase_OR/Page_OrangeHRM/span_Account Assistant""))",Chrome 126.0.0.0,,,03-07-2024 13:14:27,03-07-2024 13:14:27,0.549s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,03-07-2024 13:14:27,03-07-2024 13:14:29,1.159s,PASSED
+"click(findTestObject(""RecruitmentTestCase_OR/Page_OrangeHRM/button_Search""))",Chrome 126.0.0.0,,,03-07-2024 13:14:29,03-07-2024 13:14:29,0.355s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,03-07-2024 13:14:29,03-07-2024 13:14:29,0.279s,PASSED
